@@ -12,7 +12,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3000/users')
+    fetch('https://pin-pad.herokuapp.com/data')
       .then((results) => {
         return results.json();
       })
