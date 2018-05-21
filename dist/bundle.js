@@ -19218,7 +19218,7 @@ function (_Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      fetch('http://localhost:3000/users').then(function (results) {
+      fetch('https://pin-pad.herokuapp.com/data').then(function (results) {
         return results.json();
       }).then(function (data) {
         _this2.setState({
